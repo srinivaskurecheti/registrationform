@@ -1,1 +1,311 @@
+ clear
+    2  ls
+    3  sudo apt update
+    4  sudp apt install -y mysql-server
+    5  sudo apt install -y mysql-server
+    6  clear
+    7  ls
+    8  sudo systemctl start mysql
+    9  sudo systemctl status mysql
+   10  sudo systemctl enable mysql
+   11  mysql -u root -p
+   12  sudo mysql -u root -p
+   13  clear
+   14  ls
+   15  sudo vi index.html
+   16  sudo vi register.php
+   17  sudo apt -v install php
+   18  sudo apt -y install php
+   19  sudo vi register.php
+   20  sudo apt -y install apache2
+   21  sudo systemctl start apache2
+   22  sudo systemctl status apache2
+   23  clear
+   24  sudo cp -R ./* /var/www/html
+   25  sudo systemctl restart apache2
+   26  ls
+   27  sudo cat register.php
+   28  sudo mysql -u root -p
+   29  clear
+   30  sudo vi register.php
+   31  sudo cp -R ./* /var/www/html
+   32  sudo systemctl restart apache2
+   33  php -v
+   34  sudo mysql -u root -p
+   35  clear
+   36  ls
+   37  sudo cat register.php
+   38  sudo systemctl status mysql
+   39  sudo netstat -plntu | grep mysqld
+   40  sudo cat etc/mysql/mysql.conf.d/mysqld.cnf
+   41  sudo vi etc/mysql/mysql.conf.d/mysqld.cnf
+   42  clear
+   43  sudo netstat -plntu | grep mysqld
+   44  sudo apt-get install net-tools -y
+   45  sudo netstat -plntu | grep mysqld
+   46  clear
+   47  ls
+   48  sudo cat index.html
+   49  sudo cat register.php
+   50  sudo vi register.php
+   51  clear
+   52  sudo cp -R ./* /var/www/html
+   53  sudo systemctl restart apache2
+   54  ls
+   55  sudo vi srinu.php
+   56  cat register.php
+   57  clear
+   58  ls
+   59  sudo vi index.html
+   60  php register.php
+   61  sudo vi example.php
+   62  php example.php
+   63  php --ini
+   64  sudo vi /etc/php/8.1/cli/php.ini
+   65  clear
+   66  ls
+   67  php -v
+   68  sudo systemctl status apache2
+   69  clear
+   70  ls
+   71  sudo vi index.html
+   72  sudo cp -R ./* /var/www/html
+   73  sudo systemctl restart apache2
+   74  sudo cat index.php
+   75  sudo cat index.html
+   76  clear
+   77  ls
+   78  sudo mysql -u root -p
+   79  clear
+   80  ls
+   81  cat resiter.php
+   82  cat register.php
+   83  clear
+   84  sudo cat index.html
+   85  sudo cat register.php
+   86  sudo vi register.php
+   87  clear
+   88  sudo cp -R ./* /var/www/html
+   89  sudo systemctl restart apache2
+   90  php --ini
+   91  sudo vi /etc/php/8.1/cli/php.ini
+   92  sudo apt-get install php-mysql
+   93  sudo systemctl restart apache2
+   94  sudo vi /etc/php/8.1/cli/php.ini
+   95  sudo cp -R ./* /var/www/html
+   96  sudo systemctl restart apache2
+   97  sudo vi register.php
+   98  sudo cp -R ./* /var/www/html
+   99  sudo systemctl restart apache2
+  100  sudo systemctl status mysql
+  101  sudo netstat -tln | grep 3306
+  102  telnet 13.127.28.188 3306
+  103  clear
+  104  telnet 43.205.191.34 3306
+  105  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+  106  sudo vi register.php
+  107  sudo cp -R ./* /var/www/html
+  108  sudo systemctl restart apache2
+  109  sudo vi register.php
+  110  sudo cp -R ./* /var/www/html
+  111  sudo systemctl restart apache2
+  112  clear
+  113  ls
+  114  sudo vi index.html
+  115  sudo vi register.php
+  116  sudo cat register.php
+  117  clear
+  118  ls
+  119  sudo rm index.html register.php
+  120  ls
+  121  sudo vi index.html
+  122  sudo vi register.php
+  123  sudo vi style.css
+  124  sudo cp -R ./* /var/www/html
+  125  sudo systemctl restart apache2
+  126  cd /var/www/html
+  127  ls
+  128  cd
+  129  ls
+  130  sudo vi index.html
+  131  ls
+  132  sudo cp -R ./* /var/www/html
+  133  sudo systemctl restart apache2
+  134  ls
+  135  sudo vi login.html
+  136  sudo vi index.html
+  137  ls
+  138  sudo vi login.php
+  139  sudo cat register.php
+  140  sudo vi login.php
+  141  clear
+  142  sudo cp -R ./* /var/www/html
+  143  sudo systemctl restart apache2
+  144  sudo vi index.html
+  145  sudo vi login.html
+  146  sudo cp -R ./* /var/www/html
+  147  sudo systemctl restart apache2
+  148  sudo vi login.html
+  149  sudo cp -R ./* /var/www/html
+  150  sudo systemctl restart apache2
+  151  clear
+  152  ls
+  153  sudo mysql -u newuser -p
+  154  clear
+  155  ls
+  156  sudo cat login.html
+  157  sudo cat login.php
+  158  sudo vi login.php
+  159  sudo cp -R ./* /var/www/html
+  160  sudo systemctl restart apache2
+  161  sudo vi login.php
+  162  sudo vi login.html
+  163  clear
+  164  sudo vi index.html
+  165  sudo cp -R ./* /var/www/html
+  166  sudo systemctl restart apache2
+  167  ls
+  168  sudo vi style1.css
+  169  sudo vi login.html
+  170  sudo cp -R ./* /var/www/html
+  171  sudo systemctl restart apache2
+  172  sudo vi stycle.css
+  173  sudo vi style.css
+  174  sudo cp -R ./* /var/www/html
+  175  sudo systemctl restart apache2
+  176  sudo vi style.css
+  177  sudo cp -R ./* /var/www/html
+  178  sudo systemctl restart apache2
+  179  sudo cat style1.css
+  180  sudo vi style.css
+  181  sudo cp -R ./* /var/www/html
+  182  sudo systemctl restart apache2
+  183  sudo vi style.css
+  184  sudo cp -R ./* /var/www/html
+  185  sudo systemctl restart apache2
+  186  sudo vi style.css
+  187  sudo systemctl restart apache2
+  188  sudo cp -R ./* /var/www/html
+  189  sudo systemctl restart apache2
+  190  sudo vi style.css
+  191  sudo cp -R ./* /var/www/html
+  192  sudo systemctl restart apache2
+  193  sudo vi style.css
+  194  sudo cp -R ./* /var/www/html
+  195  sudo systemctl restart apache2
+  196  sudo vi style.css
+  197  sudo cp -R ./* /var/www/html
+  198  sudo systemctl restart apache2
+  199  sudo vi style.css
+  200  sudo cp -R ./* /var/www/html
+  201  sudo systemctl restart apache2
+  202  clear
+  203  sudo vi style1.css
+  204  clear
+  205  sudo vi style.css
+  206  sudo cp -R ./* /var/www/html
+  207  sudo systemctl restart apache2
+  208  sudo vi style.css
+  209  sudo cp -R ./* /var/www/html
+  210  sudo systemctl restart apache2
+  211  sudo mysql -u newuser -p
+  212  clear
+  213  ls
+  214  sudo vi register.php
+  215  sudo cp -R ./* /var/www/html
+  216  sudo systemctl restart apache2
+  217  sudo vi register.php
+  218  sudo cp -R ./* /var/www/html
+  219  sudo systemctl restart apache2
+  220  sudo vi register.php
+  221  sudo cp -R ./* /var/www/html
+  222  sudo systemctl restart apache2
+  223  sudo vi register.php
+  224  sudo cp -R ./* /var/www/html
+  225  sudo systemctl restart apache2
+  226  sudo vi register.php
+  227  sudo cp -R ./* /var/www/html
+  228  sudo systemctl restart apache2
+  229  sudo mysql -u newuser -p
+  230  clear
+  231  ls
+  232  sudo cat login.php
+  233  clear
+  234  sudo cat login.html
+  235  clear
+  236  sudo vi login.html
+  237  sudo vi password_reset.html
+  238  sudo cat password_reset.html
+  239  sudo vi reset_password.php
+  240  clear
+  241  sudo cp -R ./* /var/www/html
+  242  sudo systemctl restart apache2
+  243  sudo vi reset_password.php
+  244  sudo cp -R ./* /var/www/html
+  245  sudo systemctl restart apache2
+  246  ls
+  247  sudo vi reset_password.php
+  248  sudo vi reset_password.php
+  249  sudo cp -R ./* /var/www/html
+  250  sudo systemctl restart apache2
+  251  sudo vi style2.css
+  252  sudo cat password_reset.html
+  253  sudo vi password_reset.html
+  254  clear
+  255  sudo cp -R ./* /var/www/html
+  256  sudo systemctl restart apache2
+  257  ls
+  258  sudo vi password_reset.html
+  259  sudo cp -R ./* /var/www/html
+  260  sudo systemctl restart apache2
+  261  ls
+  262  git init
+  263  sudo mkdir register
+  264  ls
+  265  sudo mv example.php login.html password_reset.html register.php srinu.php style1.css index.htmllogin.php reset_password.php style.css style2.css register
+  266  sudo mv -r example.php login.html password_reset.html register.php srinu.php style1.css index.htmllogin.php reset_password.php style.css style2.css register
+  267  clear
+  268  ls
+  269  cd register
+  270  ls
+  271  sudo mv index.html login.php register
+  272  ls
+  273  cd ..
+  274  ls
+  275  sudo mv index.html login.php register
+  276  ls
+  277  cd register
+  278  git init
+  279  sudo git init
+  280  ls
+  281  git add .
+  282  clear
+  283  git init
+  284  sudo git init
+  285  sudo git add .
+  286  sudo git commit -m "first commit"
+  287  sudo git branch -M main
+  288  sudo git remote add origin https://github.com/srinivaskurecheti/registrationform.git
+  289  git push -u origin main
+  290  sudo git push -u origin main
+  291  git push https://github.com/srinivaskurecheti/registrationform.git
+  292  git config --global --add safe.directory /home/ubuntu/register
+  293  git push https://github.com/srinivaskurecheti/registrationform.git
+  294  sudo git push -u origin main
+  295  exit
+  296  clear
+  297  ls
+  298  cd register
+  299  ls
+  300  git init
+  301  sudo git init
+  302  sudo git add .
+  303  sudo git status
+  304  sudo git commit -m "first commit"
+  305  sudo git config --global user.email "srinivaskurecheti@gmail.com"
+  306  git config --global user.name "srinivaskurecheti"
+  307  sudo git status
+  308  sudo git commit -m "first commit"
+  309  sudo git status
+  310  sudo git push -u origin main
 
